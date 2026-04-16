@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+</head>
+<body>
+    <h1>🛒 Your Cart</h1>
+
+    {% for item in items %}
+        <p>{{ item.name }} - ₹{{ item.price }}</p>
+    {% endfor %}
+
+    <h2>Total: ₹{{ total }}</h2>
+
+    <form action="/order" method="post">
+        <button type="submit">Place Order</button>
+    </form>
+
+    <a href="/">Back to Menu</a>
+</body>
+</html>
