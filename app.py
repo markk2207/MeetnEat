@@ -7,7 +7,7 @@ app.secret_key = "secret"
 menu = [
     {"id": 1, "name": "Pizza", "price": 200},
     {"id": 2, "name": "Burger", "price": 120},
-    {"id": 3, "name": "Pasta", "price": 150},
+    {"id": 3, "name": "noodles", "price": 150},
 ]
 
 @app.route('/')
