@@ -1,4 +1,4 @@
-# 🍔 Online Food Ordering System
+
 
 A full-stack web application that allows users to browse food items, add them to a cart, and place orders seamlessly. This project demonstrates backend development, session management, and dynamic rendering using Flask.
 
