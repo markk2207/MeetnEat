@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Menu</title>
+</head>
+<body>
+    <h1>🍔 Food Menu</h1>
+
+    {% for item in menu %}
+        <div>
+            <h3>{{ item.name }} - ₹{{ item.price }}</h3>
+            <a href="/add/{{ item.id }}">Add to Cart</a>
+        </div>
+        <hr>
+    {% endfor %}
+
+    <a href="/cart">Go to Cart</a>
+</body>
+</html>
